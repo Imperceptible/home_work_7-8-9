@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+/*<------сверху фиксы------>*/
+
+
