@@ -12,3 +12,104 @@
 /*<------сверху фиксы------>*/
 
 
+header {
+    background-image: url("../images/bg_head.jpg");
+    background-position: top center;
+    height: 847px;
+}
+
+.header {
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+}
+/*--верхнее меню--*/
+.header__logo{
+    margin-top: 51px;
+}
+
+.header__menu{
+    float: right;
+    width: 80%;
+    margin-top: 69px;
+}
+
+.header__menu > ul {
+    position: relative;
+    float: right;
+    margin-left: 1px;
+}
+
+.header__menu__item {
+    position: relative;
+    display: block;
+    float: left;
+    margin-left: 44px;
+    left: 2px;
+}
+
+.header__item__link {
+    padding: 0 4px;
+    text-shadow: 1px 1.7px 2px rgba(0, 0, 0, 0.4);
+    color: white;
+    font-family: League_Gothic, Open_sans, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.header__item__link:hover {
+    border-bottom: solid 2px #edbfff;
+}
+/*--слайдер*/
+.slider_overlay {
+    position: absolute;
+    margin-top: 164px;
+    height: 400px;
+    width: 100%;
+    opacity: 0.2;
+    background-color: black;
+}
+
+.slider__text {
+    position: relative;
+    width: 510px;
+    top: 254px;
+    left: 117px;
+}
+
+.slider__text > h1 {
+    color: #fefefe;
+    font-family: League_Gothic;
+    text-transform: capitalize;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.55px;
+}
+
+.slider__text > h2 {
+    color: #edbfff;
+    font-family: League_Gothic;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: -0.05px;
+}
+
+.slider__text > p {
+    color: white;
+    font-family: Open_Sans;
+    font-size: 17px;
+    /*font-weight: 300;*/
+    line-height: 24px;
+}
+
+.slider > img {
+    position: absolute;
+    top: 261px;
+    left: 732px;
+}
