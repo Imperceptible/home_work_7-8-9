@@ -125,7 +125,7 @@ header {
 .category__wrap {
     position: relative;
     float: left;
-    margin: 10px 49px;
+    margin: 10px 50px;
     width: 20%;
     left: 131px;
     top: 69px;
@@ -150,6 +150,35 @@ header {
     font-weight: 300;
     line-height: 24px;
 }
+
+.category__wrap > a {
+    position: relative;
+    display: block;
+    text-shadow: 0.5px 0.9px 0 #0f1518;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-family: League_Gothic;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.category__wrap_1 {
+     top: -8px;
+     left: 160px;
+ }
+.category__wrap_2 {
+    top: -8px;
+    left: 164px;
+}
+.category__wrap_3 {
+    top: -8px;
+    left: 164px;
+}
+
+.category__wrap > a:hover {
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+    }
 /*--спрайты--*/
 .category__note {
     position: absolute;
