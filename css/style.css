@@ -229,7 +229,7 @@ header {
 
 .blog {
     position: relative;
-    height: 607px;
+    height: 487px;
     margin: 0 auto;
     background-color: #f9f9f9;
 }
@@ -366,8 +366,21 @@ header {
     font-weight: 400;
     line-height: 24px;
 }
+/*-----закончился блог------*/
+/*---линия иконок----*/
 
+.blog__icons {
+    margin: 24px 0;
+    text-align: center;
+}
 
+.blog__icons > a {
+    margin: 0 32px;
+}
+
+.blog__icons > a > img {
+    vertical-align: middle;
+}
 
 
 
